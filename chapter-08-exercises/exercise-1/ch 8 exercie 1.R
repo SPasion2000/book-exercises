@@ -24,18 +24,19 @@ meals[[5]]<- meals[["lunch"]]
 print(meals)
 # Use single-bracket notation to extract your breakfast and lunch from your list
 # and save them to a list called `early_meals`
-early_meals<-
+early_meals <- list(meals[c("breakfast","lunch")])
+                   
 
 
 ### Challenge ###
 
 # Create a list that has the number of items you ate for each meal
 # Hint: use the `lappy()` function to apply the `length()` function to each item
-
+lappy()
 
 # Write a function `add_pizza` that adds pizza to a given meal vector, and
 # returns the pizza-fied vector
-
+add_pizza<-
 
 # Create a vector `better_meals` that is all your meals, but with pizza!
-
+better_meals
