@@ -34,3 +34,7 @@
 # An important part about being a data scientist is asking questions. 
 # Write a question you may be interested in about this data set, and then use  
 # dplyr to figure out the answer!
+
+library("dplyr")
+install.packages("dplyr")
+
